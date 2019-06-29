@@ -10,7 +10,7 @@
                  @click="onClick(item)">Добавить в корзину</button>
                 <button type="button" class="btn btn-danger"
                  @click="onDelete(item)">Убрать с корзины</button>
-                <p>Суммарно: {{item.count*item.price}}</p>
+                <p>Суммарно: {{item.count*item.price}} грн.</p>
             </div>
         </li>
     </ul>
